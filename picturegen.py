@@ -23,7 +23,7 @@ if '-f' in argv:
 else:
     outFile = '1.png'
     BIter = True
-if '-d' in argv:
+if ('-d' in argv) and not ('-f' in argv):
     outDir = argv[argv.index('-d') + 1]
 else:
     outDir = ''
