@@ -6,7 +6,7 @@ The script reads standard input (stdin), converts it to integers and adds it to 
 ## Usage:
 The script takes something from stdin and jumbles the internal states accordingly, producing an image as an output.
 Execution syntax includes:
-> (some stdin) | python picturegen.py
+> (some stdin) | python picturegen.py [arguments]
 
 ## Arguments:
 
