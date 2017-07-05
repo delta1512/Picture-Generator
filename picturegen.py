@@ -3,7 +3,6 @@ from sys import stdin
 from math import floor
 from PIL import Image
 import PIL
-import struct
 
 class HashThings:
     internalStates = [0, 0, 0]
